@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'font', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+.main-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #070217;
+    color: #fff;
+}
+
+h2 {
+    margin-top: -40vh;
+}
+
+.links1 {
+   
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.da {
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.avatar img {
+    margin-bottom: 40vh;
+    width: 40%;
+    margin-left: 28vh;
+    border-radius: 100%;
+}
